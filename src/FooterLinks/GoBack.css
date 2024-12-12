@@ -1,0 +1,10 @@
+.GoBack {
+  border: none;
+  outline: none;
+  color: var(--color6);
+  background-color: inherit;
+}
+
+.GoBack:hover {
+  color: var(--color1);
+}

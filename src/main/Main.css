@@ -1,6 +1,8 @@
 .Main {
   width: 100vw;
   height: 100vh;
+
+  position: relative;
   background-color: inherit;
 }
 
@@ -21,8 +23,10 @@
   }
 
   .PageTagAside {
+    z-index: 1;
     width: 15rem;
     height: 100%;
+    position: relative;
     border-radius: 1rem;
     padding-inline: 1.5rem;
     background: url(../assets/images/bg-sidebar-desktop.svg) center/cover;
