@@ -1,18 +1,26 @@
 :root {
-  --marineBlue: hsl(213, 96%, 18%);
-  --purplishBlue: hsl(243, 100%, 62%);
-  --pastelBlue: hsl(228, 100%, 84%);
-  --lightBlue: hsl(206, 94%, 87%);
-  --strawberryRed: hsl(354, 84%, 57%);
-  --coolGray: hsl(231, 11%, 63%);
-  --lightGray: hsl(229, 24%, 87%);
-  --magnolia: hsl(217, 100%, 97%);
-  --alabaster: hsl(231, 100%, 99%);
-  --white: hsl(0, 0%, 100%);
+  --color1: hsl(213, 96%, 18%);
+  --color2: hsl(243, 100%, 62%);
+  --color3: hsl(228, 100%, 84%);
+  --color4: hsl(206, 94%, 87%);
+  --error: hsl(354, 84%, 57%);
+  --color6: hsl(231, 11%, 63%);
+  --color7: hsl(229, 24%, 87%);
+  --color8: hsl(217, 100%, 97%);
+  --color9: hsl(231, 100%, 99%);
+  --neutral1: hsl(0, 0%, 100%);
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--color8);
 }
