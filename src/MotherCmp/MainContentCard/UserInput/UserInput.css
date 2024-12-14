@@ -1,0 +1,23 @@
+.UserInput {
+  width: 100%;
+  display: grid;
+  row-gap: 0.3rem;
+}
+
+.UserInput label {
+  color: var(--color1);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.UserInput fieldset {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color6);
+}
+
+.UserInput input {
+  width: 100%;
+  border: none;
+  outline: none;
+}

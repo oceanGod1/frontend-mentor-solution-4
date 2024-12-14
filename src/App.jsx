@@ -1,10 +1,10 @@
 import "./App.css";
-import Main from "./main/Main";
+import MotherCmp from "./MotherCmp/MotherCmp";
 
 function App() {
   return (
     <>
-      <Main />
+      <MotherCmp />
     </>
   );
 }

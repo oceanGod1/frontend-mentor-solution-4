@@ -1,4 +1,4 @@
-.CurrentStepIndex {
+.CurrentStep p:first-of-type {
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -11,7 +11,8 @@
   border-color: var(--color7);
 }
 
-.DesktopContent {
+.CurrentStep p:nth-of-type(2),
+.CurrentStep p:last-of-type {
   display: none;
 }
 
@@ -24,16 +25,14 @@
     grid-template-columns: 2rem 1fr;
   }
 
-  .DesktopContent {
+  .CurrentStep p:nth-of-type(2) {
     display: block;
-  }
-
-  .StepIndex {
     font-size: 0.7rem;
     color: var(--color6);
   }
 
-  .StepTitle {
+  .CurrentStep p:last-of-type {
+    display: block;
     font-weight: 500;
     font-size: 0.8rem;
     color: var(--color7);

@@ -1,0 +1,20 @@
+.MotherCmp {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  background-color: inherit;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: minmax(1rem, 1fr) minmax(auto, 38rem) minmax(1rem, 1fr);
+}
+
+@media (min-width: 62rem) {
+  .MotherCmp {
+    width: 52rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: min(100vh, 33rem);
+    background-color: var(--neutral1);
+    grid-template-columns: 15rem 1fr 1fr;
+  }
+}
