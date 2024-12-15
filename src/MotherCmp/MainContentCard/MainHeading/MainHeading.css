@@ -1,13 +1,13 @@
-.MainHeading {
+.main-heading {
   display: grid;
   row-gap: 0.5rem;
 }
 
-.MainHeading h1 {
+.main-heading h1 {
   color: var(--color1);
 }
 
-.MainHeading p {
+.main-heading p {
   color: var(--color6);
   line-height: 1.3rem;
 }

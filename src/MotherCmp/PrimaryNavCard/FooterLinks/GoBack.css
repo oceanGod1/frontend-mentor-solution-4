@@ -1,10 +1,11 @@
-.GoBack {
+.go-back {
   border: none;
   outline: none;
+  cursor: pointer;
   color: var(--color6);
   background-color: inherit;
 }
 
-.GoBack:hover {
+.go-back:hover {
   color: var(--color1);
 }

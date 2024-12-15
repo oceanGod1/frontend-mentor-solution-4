@@ -1,4 +1,4 @@
-.CurrentStep p:first-of-type {
+.current-step p:first-of-type {
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -11,13 +11,13 @@
   border-color: var(--color7);
 }
 
-.CurrentStep p:nth-of-type(2),
-.CurrentStep p:last-of-type {
+.current-step p:nth-of-type(2),
+.current-step p:last-of-type {
   display: none;
 }
 
 @media (min-width: 62rem) {
-  .CurrentStep {
+  .current-step {
     height: 2rem;
     display: grid;
     column-gap: 1rem;
@@ -25,13 +25,13 @@
     grid-template-columns: 2rem 1fr;
   }
 
-  .CurrentStep p:nth-of-type(2) {
+  .current-step p:nth-of-type(2) {
     display: block;
     font-size: 0.7rem;
     color: var(--color6);
   }
 
-  .CurrentStep p:last-of-type {
+  .current-step p:last-of-type {
     display: block;
     font-weight: 500;
     font-size: 0.8rem;

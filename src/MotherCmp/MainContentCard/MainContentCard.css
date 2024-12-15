@@ -1,4 +1,4 @@
-.MainContentCard {
+.main-content-card {
   display: grid;
   row-gap: 1rem;
   padding: 1.5rem;
@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 62rem) {
-  .MainContentCard {
+  .main-content-card {
     grid-column: span 2;
     padding-inline: 5rem 4rem;
     transform: translateY(0);

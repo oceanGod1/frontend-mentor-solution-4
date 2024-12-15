@@ -9,7 +9,7 @@ export default function SecondaryNav({ count }) {
   ];
   const stepNumIdx = stepId => steps.findIndex(val => val.id === stepId);
   return (
-    <ul className="SecondaryNav">
+    <ul className="secondary-nav">
       {steps.map(({ id, stepTitle }) => {
         return <CurrentStep key={id} stepNum={stepNumIdx(id) + 1} stepTitle={stepTitle} isActive={stepNumIdx(id) === count - 1} />;
       })}

@@ -1,6 +1,7 @@
-.NextStep {
+.next-step {
   border: none;
   outline: none;
+  cursor: pointer;
   border-radius: 0.4rem;
   padding: 0.8rem 1.2rem;
   color: var(--neutral1);

@@ -5,7 +5,7 @@ import "./PrimaryNavCard.css";
 
 export default function PrimaryNavCard({ increament, decreament, count, innerContent }) {
   return (
-    <footer className="PrimaryNavCard">
+    <footer className="primry-nav-card">
       <nav>
         <GoBack decreament={decreament} />
         <NextStep increament={increament} count={count} innerContent={innerContent} />

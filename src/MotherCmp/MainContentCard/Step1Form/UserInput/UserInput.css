@@ -1,0 +1,54 @@
+.user-input {
+  width: 100%;
+  display: grid;
+  row-gap: 0.3rem;
+  position: relative;
+}
+
+.user-input label {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--color1);
+}
+
+.user-input p {
+  right: 0;
+  display: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  position: absolute;
+  color: var(--error);
+}
+
+.user-input .error-message {
+  display: block;
+}
+
+.user-input fieldset {
+  display: flex;
+  height: 2.2rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color6);
+}
+
+.user-input .fieldset-on-error {
+  border-color: var(--error);
+}
+
+.user-input .fieldset-isactive {
+  border-color: var(--color2);
+}
+
+.user-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color1);
+}
+
+.user-input input::placeholder {
+  color: var(--color6);
+}
