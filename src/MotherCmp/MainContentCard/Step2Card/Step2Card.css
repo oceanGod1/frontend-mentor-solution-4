@@ -1,0 +1,49 @@
+.step2-card {
+  gap: 0.8rem;
+  display: grid;
+  list-style: none;
+}
+
+.toggle-duration-card {
+  display: flex;
+  height: 2.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  justify-content: center;
+  background-color: var(--color9);
+}
+
+input[type="range"] {
+  width: 2rem;
+  outline: none;
+  height: 1.1rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  appearance: none;
+  margin-inline: 1rem;
+  border-radius: 0.55rem;
+  background-color: var(--color1);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 0.6rem;
+  height: 0.6rem;
+  appearance: none;
+  border-radius: 50%;
+  background-color: var(--neutral1);
+}
+
+@media (min-width: 62rem) {
+  .step2-card {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.8rem;
+    list-style: none;
+  }
+
+  .toggle-duration-card {
+    grid-column: span 3;
+  }
+}

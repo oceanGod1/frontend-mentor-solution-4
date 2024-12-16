@@ -8,7 +8,6 @@
 .user-input label {
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--color1);
 }
 
 .user-input p {
@@ -46,9 +45,9 @@
   outline: none;
   cursor: pointer;
   font-weight: 700;
-  color: var(--color1);
 }
 
 .user-input input::placeholder {
+  font-weight: 500;
   color: var(--color6);
 }

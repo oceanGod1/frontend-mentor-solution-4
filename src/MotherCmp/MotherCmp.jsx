@@ -11,13 +11,12 @@ import "./MotherCmp.css";
 
 // the mother component
 export default function MotherCmp() {
+  // STEP 1
   // destructure the useState for next step, and go back
   const [count, setCount] = useState(1);
-
   // destructure the useState for the input fields in step 1
   const [step1Values, setStep1Values] = useState({ name: "", email: "", phoneNumber: "" });
   const [step1Done, setStep1Done] = useState(false);
-
   // event listener for the step 1 input fields
   const handleStep1Change = e => {
     return setStep1Values(currValue => {
@@ -34,7 +33,6 @@ export default function MotherCmp() {
     count < 4 && name && email && phoneNumber && setCount(count + 1);
     setStep1Done(true);
   };
-
   const decreament = () => count > 1 && setCount(count - 1);
   const innerContent = () => (count === 4 ? "Confirm" : "Next Step");
 

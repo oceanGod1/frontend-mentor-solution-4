@@ -3,11 +3,13 @@
   row-gap: 0.5rem;
 }
 
-.main-heading h1 {
-  color: var(--color1);
-}
-
 .main-heading p {
   color: var(--color6);
   line-height: 1.3rem;
+}
+
+@media (min-width: 62rem) {
+  .main-heading p {
+    font-size: 0.9rem;
+  }
 }
